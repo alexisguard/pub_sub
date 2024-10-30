@@ -25,7 +25,7 @@ class MessageTracker:
             message_data = {
                 'message': {
                     'id': message_id,
-                    'document_id': message.get('document_id'),
+                    'task_id': message.get('task_id'),
                     'result': message.get('result'),
                     'status': message.get('status', 'pending')
                 },
